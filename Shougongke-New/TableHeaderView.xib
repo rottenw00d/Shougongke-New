@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TableHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="310"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMg-vQ-JXx">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+                </scrollView>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4b9-6T-NiB">
+                    <rect key="frame" x="0.0" y="130" width="94" height="89"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ami-Yn-HOh">
+                    <rect key="frame" x="94" y="130" width="94" height="89"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TIb-7B-gXd">
+                    <rect key="frame" x="188" y="130" width="94" height="89"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bOO-zX-YIh">
+                    <rect key="frame" x="282" y="130" width="94" height="89"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GTO-9l-uSn">
+                    <rect key="frame" x="0.0" y="220" width="187" height="80"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Hm-68-6j3">
+                    <rect key="frame" x="188" y="220" width="189" height="80"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="daren" destination="4b9-6T-NiB" id="HVU-6F-HIL"/>
+                <outlet property="event" destination="bOO-zX-YIh" id="nsE-iY-B9f"/>
+                <outlet property="rank" destination="Ami-Yn-HOh" id="myD-WP-omj"/>
+                <outlet property="scrollView" destination="AMg-vQ-JXx" id="KXF-GR-VxI"/>
+                <outlet property="shiji" destination="TIb-7B-gXd" id="kF4-oK-Wki"/>
+                <outlet property="sp1" destination="GTO-9l-uSn" id="Rbe-yA-i9Y"/>
+                <outlet property="sp2" destination="6Hm-68-6j3" id="vs6-CY-8cn"/>
+            </connections>
+            <point key="canvasLocation" x="226.5" y="348"/>
+        </view>
+    </objects>
+</document>

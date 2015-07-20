@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="475" id="KGk-i7-Jjw" customClass="TopicCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="475"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="手工专题" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wga-EM-Amj">
+                        <rect key="frame" x="8" y="10" width="139" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ws_homepage_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="VJw-Vv-GHv">
+                        <rect key="frame" x="347" y="11" width="20" height="20"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fkh-qo-eHo">
+                        <rect key="frame" x="8" y="42" width="178" height="178"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K3F-0F-O3W">
+                        <rect key="frame" x="188" y="42" width="88" height="88"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9JO-oP-P8L">
+                        <rect key="frame" x="278" y="42" width="88" height="88"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8WR-k0-x2b">
+                        <rect key="frame" x="188" y="132" width="88" height="88"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LNS-LP-4dt">
+                        <rect key="frame" x="278" y="132" width="88" height="88"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bic-xR-jLn">
+                        <rect key="frame" x="8" y="229" width="358" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZP5-iR-JIT">
+                        <rect key="frame" x="8" y="260" width="178" height="178"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vNU-kb-kEJ">
+                        <rect key="frame" x="188" y="260" width="88" height="88"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ddd-vy-3Em">
+                        <rect key="frame" x="278" y="260" width="88" height="88"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IxP-MC-0xV">
+                        <rect key="frame" x="188" y="350" width="88" height="88"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HEV-CF-jSz">
+                        <rect key="frame" x="278" y="350" width="88" height="88"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KuQ-Xs-eBB">
+                        <rect key="frame" x="8" y="447" width="358" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lab1" destination="Bic-xR-jLn" id="LSa-Qp-JWQ"/>
+                <outlet property="lab2" destination="KuQ-Xs-eBB" id="Xg8-3t-SfM"/>
+                <outlet property="pic11" destination="fkh-qo-eHo" id="Bld-qw-aWB"/>
+                <outlet property="pic12" destination="K3F-0F-O3W" id="yGo-t4-5xP"/>
+                <outlet property="pic13" destination="9JO-oP-P8L" id="8tw-h0-xPs"/>
+                <outlet property="pic14" destination="8WR-k0-x2b" id="xIw-Aj-9G9"/>
+                <outlet property="pic15" destination="LNS-LP-4dt" id="DGd-S9-1N6"/>
+                <outlet property="pic21" destination="ZP5-iR-JIT" id="bYk-E2-lZe"/>
+                <outlet property="pic22" destination="vNU-kb-kEJ" id="LP8-sj-M34"/>
+                <outlet property="pic23" destination="ddd-vy-3Em" id="mCG-GT-C5d"/>
+                <outlet property="pic24" destination="IxP-MC-0xV" id="fI3-nG-8p0"/>
+                <outlet property="pic25" destination="HEV-CF-jSz" id="ymn-KE-3oK"/>
+            </connections>
+            <point key="canvasLocation" x="226.5" y="357.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ws_homepage_arrow" width="14" height="14"/>
+    </resources>
+</document>
